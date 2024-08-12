@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+[remote "floki2k23"]
+	url = https://github.com/mohdkashifhasan/floki2k23.git
+	fetch = +refs/heads/*:refs/remotes/floki2k23/*
+[remote "fliki"]
+	url = https://github.com/mohdkashifhasan/floki2k23.git
+	fetch = +refs/heads/*:refs/remotes/fliki/*
+[branch "master"]
+	remote = fliki
+	merge = refs/heads/master
